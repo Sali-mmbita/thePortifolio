@@ -172,8 +172,14 @@
         </div>
     </footer>
  </div>
-    <script src="portifolio.js">
-
+    <script>
+              
+  function setHeroHeight() {
+    let vh = window.innerHeight * 0.01;
+    document.documentElement.style.setProperty('--vh', `${vh}px`);
+  }
+  setHeroHeight();
+  window.addEventListener('resize', setHeroHeight);
     </script>
     
 

@@ -83,13 +83,13 @@
 
         /* Hero Section */
         .hero {
-            height: 100vh;
+            height: calc(var(--vh, 1vh) * 100);
             display: flex;
             align-items: center;
             background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('medited2\ \(1\).jpg') no-repeat center center/cover;
             color: white;
             text-align: center;
-            padding-top: 80px;
+            padding-top: 5rem;
         }
 
         .hero-content {
@@ -113,7 +113,7 @@
             color: white;
             padding: 0.8rem 1.5rem;
             border: none;
-            border-radius: 5px;
+            border-radius: 0.3125rem;
             cursor: pointer;
             transition: background 0.3s;
         }
@@ -151,7 +151,7 @@
 
         .about-img {
             flex: 1;
-            min-width: 300px;
+            min-width: 18.75rem;
             padding: 1rem;
 
             
@@ -173,7 +173,7 @@
 
         .about-text {
             flex: 1;
-            min-width: 300px;
+            min-width: 200px;
             padding: 1rem;
             
             animation: titleAnimation linear both;
@@ -253,7 +253,7 @@
 
         .project-img {
             width: 100%;
-            height: 200px;
+            height: 12.5rem;
             object-fit: cover;
         }
 
