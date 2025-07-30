@@ -121,6 +121,7 @@
         .btn:hover {
             background: #2980b9;
         }
+        
 
         /* About Section */
         .section {
@@ -369,6 +370,7 @@
             .nav-menu {
                 display: none;
                 width: 100%;
+                justify-content: center;
             }
 
             .nav-menu.active {
